@@ -7,7 +7,7 @@ mkdir -p ~/motioneye
 mkdir -p ~/motioneye/config
 mkdir -p ~/motioneye/videos
 
-docker build . \
+docker build \
   --no-cache \
   --network host \
   --build-arg="RUN_UID=$(id -u ${RUN_USER})" \
