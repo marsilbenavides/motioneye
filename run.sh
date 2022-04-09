@@ -13,7 +13,7 @@ docker build \
   --build-arg="RUN_UID=$(id -u ${RUN_USER})" \
   --build-arg="RUN_GID=$(id -g ${RUN_USER})" \
   -t "motioneye-img" \
-  -f extra/Dockerfile .
+  -f docker/Dockerfile .
 
 docker run -dit \
   --name "motioneye" \
