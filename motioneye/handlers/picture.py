@@ -115,7 +115,7 @@ class PictureHandler(BaseHandler):
             # get_current_picture() will make sure to start a client, but a jpeg frame is not available right away;
             # wait at most 5 seconds and retry every 200 ms.
             if not picture and retry < 25:
-                return IOLoop.instance().add_timeout(
+                return IOLoop.current().add_timeout(
                     datetime.timedelta(seconds=0.2),
                     self.current,
                     camera_id=camera_id,
@@ -199,7 +199,6 @@ class PictureHandler(BaseHandler):
             or utils.is_simple_mjpeg_camera(camera_config)
             or self.get_argument('title', None) is not None
         ):
-
             return self.render(
                 'main.html',
                 frame=True,

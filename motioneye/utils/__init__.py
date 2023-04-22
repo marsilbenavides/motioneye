@@ -194,6 +194,7 @@ def is_local_motion_camera(config):
     """Tells if a camera is managed by the local motion instance."""
     return bool(
         config.get('videodevice')
+        or config.get('video_device')
         or config.get('netcam_url')
         or config.get('mmalcam_name')
     )
@@ -279,7 +280,7 @@ def parse_cookies(cookies_headers):
 
 
 def build_basic_header(username, password):
-    return 'Basic ' + base64.encodebytes(f'{username}:{password}').replace('\n', '')
+    return 'Basic %s' % base64.b64encode(f'{username}:{password}'.encode()).decode()
 
 
 def parse_basic_header(header):
@@ -531,7 +532,7 @@ def parse_editable_mask_file(
     # of the camera image, as it might be different from that of the associated mask;
     # they can be null (e.g. netcams)
 
-    file_name = os.path.join(settings.CONF_PATH, 'mask_%s.pgm' % camera_id)
+    file_name = build_mask_file_name(camera_id, mask_class)
 
     logging.debug(
         f'parsing editable mask {mask_class} for camera with id {camera_id}: {file_name}'
@@ -575,7 +576,7 @@ def parse_editable_mask_file(
     else:
         rx = 0
 
-    rw = width / nx  # rectangle width
+    rw = width // nx  # rectangle width
 
     # vertical rectangles
     ny = height * MASK_WIDTH // width  # number of rectangles
@@ -586,7 +587,7 @@ def parse_editable_mask_file(
     else:
         ry = 0
 
-    rh = height / ny  # rectangle height
+    rh = height // ny  # rectangle height
 
     # parse the image contents and build the mask lines
     mask_lines = [width, height]

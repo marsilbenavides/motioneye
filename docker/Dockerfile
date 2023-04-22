@@ -9,12 +9,12 @@ COPY . /tmp/motioneye
 COPY docker/entrypoint.sh /entrypoint.sh
 
 RUN case "$(dpkg --print-architecture)" in \
-      'armhf') PACKAGES='gcc libjpeg-dev python3-distutils python3-dev'; printf '%b' '[global]\nextra-index-url=https://www.piwheels.org/simple/\n' > /etc/pip.conf;; \
+      'armhf') PACKAGES='python3-distutils'; printf '%b' '[global]\nextra-index-url=https://www.piwheels.org/simple/\n' > /etc/pip.conf;; \
       *) PACKAGES='gcc libcurl4-openssl-dev libssl-dev python3-dev';; \
     esac && \
     apt-get -q update && \
     DEBIAN_FRONTEND="noninteractive" apt-get -qq --option Dpkg::Options::="--force-confnew" --no-install-recommends install \
-      ca-certificates curl python3 $PACKAGES && \
+      ca-certificates curl python3 fdisk $PACKAGES && \
     curl -sSfO 'https://bootstrap.pypa.io/get-pip.py' && \
     python3 get-pip.py && \
     python3 -m pip install --no-cache-dir --upgrade pip setuptools wheel && \

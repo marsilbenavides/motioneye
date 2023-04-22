@@ -7,707 +7,677 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-16 11:54+0100\n"
-"PO-Revision-Date: 2020-03-28 18:26+0100\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2023-04-05 00:46+0000\n"
+"PO-Revision-Date: 2023-03-14 19:38+0000\n"
+"Last-Translator: \"Lincoln H.\" <4k4ze5s44tgi@opayq.com>\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/motioneye-project/motioneye-javascript/pt/>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.2-dev\n"
 
-#: static/js/main.js:585
-#, fuzzy
+#: motioneye/static/js/main.js:606
 msgid "specialaj signoj ne rajtas en pasvorto"
 msgstr "caracteres especiais não são permitidos na senha"
 
-#: static/js/main.js:592 static/js/main.js:603 static/js/main.js:669
-#: static/js/ui.js:362 static/js/ui.js:419 static/js/ui.js:687
-#, fuzzy
+#: motioneye/static/js/main.js:613 motioneye/static/js/main.js:624
+#: motioneye/static/js/main.js:683 motioneye/static/js/ui.js:362
+#: motioneye/static/js/ui.js:419 motioneye/static/js/ui.js:687
 msgid "Ĉi tiu kampo estas deviga"
 msgstr "Este campo é obrigatório"
 
-#: static/js/main.js:596
-#, fuzzy
+#: motioneye/static/js/main.js:617
 msgid "specialaj signoj ne rajtas en la nomo de kamerao"
-msgstr "caracteres especiais não são permitidos no nome da câmera"
+msgstr "caracteres especiais não são permitidos no nome de câmera"
 
-#: static/js/main.js:608
-#, fuzzy
+#: motioneye/static/js/main.js:629
 msgid "valoro devas esti multoblo de 8"
 msgstr "o valor deve ser um múltiplo de 8"
 
-#: static/js/main.js:615
-#, fuzzy
+#: motioneye/static/js/main.js:636
 msgid "specialaj signoj ne rajtas en radika voja nomo"
-msgstr "caracteres especiais não são permitidos no nome do caminho raiz"
+msgstr "caracteres especiais não são permitidos no nome de pasta raiz"
 
-#: static/js/main.js:618
-#, fuzzy
+#: motioneye/static/js/main.js:639
 msgid "dosieroj ne povas esti kreitaj rekte en la radiko de via sistemo"
-msgstr "arquivos não podem ser criados diretamente na raiz do seu sistema"
+msgstr "ficheiros não podem ser criados diretamente na raiz do seu sistema"
 
-#: static/js/main.js:625
-#, fuzzy
+#: motioneye/static/js/main.js:646
 msgid "enigu validan retpoŝtadreson"
 msgstr "insira um endereço de email válido"
 
-#: static/js/main.js:632
-#, fuzzy
+#: motioneye/static/js/main.js:653
 msgid "enigu liston de koma apartaj validaj retpoŝtadresoj"
 msgstr "insira uma lista de endereços de email válidos separados por vírgula"
 
-#: static/js/main.js:639
-#, fuzzy
+#: motioneye/static/js/main.js:660
 msgid "specialaj signoj ne rajtas en dosiernomo"
-msgstr "caracteres especiais não são permitidos no nome do arquivo"
+msgstr "caracteres especiais não são permitidos no nome do ficheiro"
 
-#: static/js/main.js:673
-#, fuzzy
+#: motioneye/static/js/main.js:687
 msgid "enigu validan valoron"
 msgstr "insira um valor válido"
 
-#: static/js/main.js:827
-#, fuzzy
+#: motioneye/static/js/main.js:841
 msgid "Ĉi rekursie forigos ĉiujn dosierojn ĉeestantajn en la nuba dosierujo \""
-msgstr "Isso recursivamente excluirá todos os arquivos da pasta na nuvem \""
+msgstr "Isto recursivamente excluirá todos os ficheiros da pasta na nuvem \""
 
-#: static/js/main.js:828
-#, fuzzy
+#: motioneye/static/js/main.js:842
 msgid "\", ne nur tiuj alŝutitaj de motionEye!"
 msgstr "\", não apenas aqueles enviados por motionEye!"
 
-#: static/js/main.js:909
-#, fuzzy
+#: motioneye/static/js/main.js:923
 msgid "Ĉi rekursie forigos ĉiujn malnovajn amaskomunikilajn dosierojn en la dosierujo \""
-msgstr "Isso recursivamente excluirá todos os arquivos de mídia antigos da pasta \""
+msgstr "Isto recursivamente excluirá todos os ficheiros de mídia velhos da pasta \""
 
-#: static/js/main.js:910
-#, fuzzy
+#: motioneye/static/js/main.js:924
 msgid "\", ne nur tiuj kreitaj de motionEye!"
 msgstr "\", não apenas aqueles criados por motionEye!"
 
-#: static/js/main.js:976
-#, fuzzy
+#: motioneye/static/js/main.js:990
 msgid "Ne eblas redakti la maskon sen valida kameraa bildo!"
 msgstr "Não é possível editar a máscara sem uma imagem de câmera válida!"
 
-#: static/js/main.js:2193
-#, fuzzy
+#: motioneye/static/js/main.js:2230
 msgid "Propra"
-msgstr "Próprio"
+msgstr "Personalizado"
 
-#: static/js/main.js:2231
-#, fuzzy
+#: motioneye/static/js/main.js:2268
 msgid "Propra dosierindiko"
-msgstr "Nome de arquivo personalizado"
+msgstr "Nome de caminho personalizado"
 
-#: static/js/main.js:2233
-#, fuzzy
+#: motioneye/static/js/main.js:2270
 msgid "Retan kunlokon"
-msgstr "Comunicação online"
+msgstr "compartilhamento de rede"
 
-#: static/js/main.js:2587
-#, fuzzy
+#: motioneye/static/js/main.js:2630
 msgid "Via retumilo ne efektivigas ĉi tiun funkcion!"
-msgstr "Seu navegador não realiza esse recurso!"
+msgstr "Seu navegador não realiza este recurso!"
 
-#: static/js/main.js:2604
-#, fuzzy
+#: motioneye/static/js/main.js:2646
 msgid "Apliki"
 msgstr "Aplicar"
 
-#: static/js/main.js:2631 static/js/main.js:2992 static/js/main.js:3045
-#: static/js/main.js:3120
-#, fuzzy
+#: motioneye/static/js/main.js:2673 motioneye/static/js/main.js:3034
+#: motioneye/static/js/main.js:3089 motioneye/static/js/main.js:3164
 msgid "Certigu, ke ĉiuj agordaj opcioj validas!"
-msgstr "Verifique se todas as opções de configuração são válidas!"
+msgstr "Verifique, se todas as opções de configuração são válidas!"
 
-#: static/js/main.js:2733
-#, fuzzy
+#: motioneye/static/js/main.js:2775
 msgid "Ĉi tio rekomencos la sistemon. Daŭrigi?"
 msgstr "Isso reiniciará o sistema. Continuar?"
 
-#: static/js/main.js:2743
-#, fuzzy
+#: motioneye/static/js/main.js:2785
 msgid "Vere fermiti sistemon?"
-msgstr "Realmente desligou o sistema?"
+msgstr "Deseja realmente desligar o sistema?"
 
-#: static/js/main.js:2755
-#, fuzzy
+#: motioneye/static/js/main.js:2797
 msgid "Malŝaltita"
 msgstr "Desligado"
 
-#: static/js/main.js:2770
-#, fuzzy
+#: motioneye/static/js/main.js:2812
 msgid "Ĉu vere restartigi ?"
-msgstr "Realmente reiniciar?"
+msgstr "Deseja realmente reiniciar agora?"
 
-#: static/js/main.js:2784
-#, fuzzy
+#: motioneye/static/js/main.js:2826
 msgid "La sistemo rekomencis!"
 msgstr "O sistema foi reiniciado!"
 
-#: static/js/main.js:2804 static/js/main.js:2837 static/js/main.js:3815
-#, fuzzy
+#: motioneye/static/js/main.js:2846 motioneye/static/js/main.js:2879
+#: motioneye/static/js/main.js:3859
 msgid "Bonvolu apliki unue la modifitajn agordojn!"
-msgstr "Aplique as configurações modificadas primeiro!"
+msgstr "Aplique primeiro as configurações modificadas!"
 
-#: static/js/main.js:2809
-#, fuzzy
+#: motioneye/static/js/main.js:2851
 msgid "Neniu fotilo por forigi!"
 msgstr "Nenhuma câmera para remover!"
 
-#: static/js/main.js:2815
-#, fuzzy
+#: motioneye/static/js/main.js:2857
 msgid "Ĉu forigi kameraon "
-msgstr "Pode remover a câmera"
+msgstr "Pode remover a câmera "
 
-#: static/js/main.js:2843
-#, fuzzy
+#: motioneye/static/js/main.js:2885
 msgid "motionEye estas ĝisdatigita (aktuala versio: "
-msgstr "O motionEye é atualizado (versão atual:"
+msgstr "O motionEye está atualizado (versão atual: "
 
-#: static/js/main.js:2846
-#, fuzzy
+#: motioneye/static/js/main.js:2888
 msgid "Nova versio havebla: "
-msgstr "Nova versão disponível:"
+msgstr "Nova versão disponível: "
 
-#: static/js/main.js:2846
-#, fuzzy
+#: motioneye/static/js/main.js:2888
 msgid ". Ĝisdatigi?"
 msgstr ". Atualizar?"
 
-#: static/js/main.js:2854
-#, fuzzy
+#: motioneye/static/js/main.js:2896
 msgid "motionEye estis sukcese ĝisdatigita!"
 msgstr "motionEye foi atualizado com sucesso!"
 
-#: static/js/main.js:2864
-#, fuzzy
+#: motioneye/static/js/main.js:2906
 msgid "Ĝisdatigo malsukcesis!"
-msgstr "Falha na atualização!"
+msgstr "Atualização malsucedida!"
 
-#: static/js/main.js:2875
-#, fuzzy
+#: motioneye/static/js/main.js:2917
 msgid "La ĝisdatiga procezo malsukcesis!"
 msgstr "O processo de atualização falhou!"
 
-#: static/js/main.js:2894
-#, fuzzy
+#: motioneye/static/js/main.js:2936
 msgid "Rezerva dosiero"
-msgstr "Arquivo de backup"
+msgstr "Arquivo de cópia de segurança"
 
-#: static/js/main.js:2896
-#, fuzzy
+#: motioneye/static/js/main.js:2938
 msgid "La rezervan dosieron, kiun vi antaŭe elŝutis."
-msgstr "O arquivo de backup que você baixou anteriormente."
+msgstr "O arquivo de cópia de segurança que você baixou anteriormente."
 
-#: static/js/main.js:2925
-#, fuzzy
+#: motioneye/static/js/main.js:2967
 msgid "Restaŭrigi Agordon"
 msgstr "Restaurar configuração"
 
-#: static/js/main.js:2937
-#, fuzzy
+#: motioneye/static/js/main.js:2979
 msgid "Restaŭriganta agordon ..."
 msgstr "Restaurando configuração ..."
 
-#: static/js/main.js:2944
-#, fuzzy
+#: motioneye/static/js/main.js:2986
 msgid "La agordo restaŭrigis!"
 msgstr "A configuração foi restaurada!"
 
-#: static/js/main.js:2954 static/js/main.js:2973
-#, fuzzy
+#: motioneye/static/js/main.js:2996 motioneye/static/js/main.js:3015
 msgid "Malsukcesis restaŭri la agordon!"
-msgstr "Falha ao restaurar a configuração!"
+msgstr "Restauração de configuração malsucedida!"
 
-#: static/js/main.js:3026
-#, fuzzy
+#: motioneye/static/js/main.js:3070
 msgid "Aliri la alŝutan servon malsukcesis: "
-msgstr "O acesso ao serviço de upload falhou:"
+msgstr "O acesso ao serviço de upload falhou: "
 
-#: static/js/main.js:3029
-#, fuzzy
+#: motioneye/static/js/main.js:3073
 msgid "Aliri la alŝutan servon sukcesis!"
 msgstr "O acesso ao serviço de upload foi bem-sucedido!"
 
-#: static/js/main.js:3066 static/js/main.js:3069
-#, fuzzy
+#: motioneye/static/js/main.js:3110 motioneye/static/js/main.js:3113
 msgid "Sciiga retpoŝto fiaskis:"
-msgstr "E-mail de notícias falhou:"
+msgstr "E-mail de notificação falhou:"
 
-#: static/js/main.js:3085
-#, fuzzy
+#: motioneye/static/js/main.js:3129
 msgid "Certiĝu, ke ĉiuj agordaj opcioj estas validaj!"
-msgstr "Verifique se todas as opções de configuração são válidas!"
+msgstr "Verifique, se todas as opções de configuração são válidas!"
 
-#: static/js/main.js:3101
-#, fuzzy
+#: motioneye/static/js/main.js:3145
 msgid "Sciiga Telegramo fiaskis:"
 msgstr "O telegrama de notificação falhou:"
 
-#: static/js/main.js:3104
-#, fuzzy
+#: motioneye/static/js/main.js:3148
 msgid "Sciiga Telegramo sukcesis!"
 msgstr "O telegrama de notificação foi bem sucedido!"
 
-#: static/js/main.js:3140
-#, fuzzy
+#: motioneye/static/js/main.js:3184
 msgid "Aliro al retdividado fiaskis: "
-msgstr "O acesso à transmissão de rede falhou:"
+msgstr "O acesso à transmissão de rede falhou: "
 
-#: static/js/main.js:3143
-#, fuzzy
+#: motioneye/static/js/main.js:3187
 msgid "Aliro al retdividado sukcesis!"
-msgstr "O acesso ao retardo foi bem sucedido!"
+msgstr "O acesso ao compartilhamento de rede foi bem sucedido!"
 
-#: static/js/main.js:3167
-#, fuzzy
+#: motioneye/static/js/main.js:3211
 msgid "Ĉu vere forigi ĉi tiun dosieron?"
-msgstr "Deseja mesmo excluir este arquivo?"
+msgstr "Deseja mesmo excluir este ficheiro?"
 
-#: static/js/main.js:3191
-#, fuzzy
+#: motioneye/static/js/main.js:3235
 msgid "Ĉu vere forigi ĉiujn bildojn de \"%(group)s\"?"
 msgstr "Excluir realmente todas as imagens de \"%(group)s\"?"
 
-#: static/js/main.js:3194
-#, fuzzy
+#: motioneye/static/js/main.js:3238
 msgid "Ĉu vere forigi ĉiujn filmojn de \"%(group)s\"?"
-msgstr "Remover realmente todos os filmes de \"%(group)s\"?"
+msgstr "Remover realmente todos os vídeos de \"%(group)s\"?"
 
-#: static/js/main.js:3199
-#, fuzzy
+#: motioneye/static/js/main.js:3243
 msgid "Ĉu vere forigi ĉiujn ne grupigitajn bildojn?"
-msgstr "Realmente excluir todas as imagens não agrupadas?"
+msgstr "Deseja excluir todas as imagens não agrupadas?"
 
-#: static/js/main.js:3202
-#, fuzzy
+#: motioneye/static/js/main.js:3246
 msgid "Ĉu vere forigi ĉiujn ne grupigitajn filmojn?"
-msgstr "Realmente excluir todos os filmes não agrupados?"
+msgstr "Deseja excluir todos os filmes não agrupados?"
 
-#: static/js/main.js:3313
-#, fuzzy
+#: motioneye/static/js/main.js:3357
 msgid "aldonadi kameraon..."
-msgstr "adicionar câmera ..."
+msgstr "adicionar câmera..."
 
-#: static/js/main.js:3501
-#, fuzzy
+#: motioneye/static/js/main.js:3545
 msgid "bone"
-msgstr "tudo bem"
+msgstr "tá bem"
 
-#: static/js/main.js:3538 static/js/main.js:3837
-#, fuzzy
+#: motioneye/static/js/main.js:3582 motioneye/static/js/main.js:3881
 msgid "Uzantnomo"
 msgstr "Nome de usuário"
 
-#: static/js/main.js:3543 static/js/main.js:3842
-#, fuzzy
+#: motioneye/static/js/main.js:3587 motioneye/static/js/main.js:3886
 msgid "Pasvorto"
 msgstr "Senha"
 
-#: static/js/main.js:3549
-#, fuzzy
+#: motioneye/static/js/main.js:3593
 msgid "Memoru min"
 msgstr "Lembra de mim"
 
-#: static/js/main.js:3567 static/js/main.js:3573
-#, fuzzy
+#: motioneye/static/js/main.js:3611 motioneye/static/js/main.js:3617
 msgid "Ensaluti"
 msgstr "Entrar"
 
-#: static/js/main.js:3570 static/js/ui.js:1023 static/js/ui.js:1030
-#, fuzzy
+#: motioneye/static/js/main.js:3614 motioneye/static/js/ui.js:1023
+#: motioneye/static/js/ui.js:1030
 msgid "Nuligi"
 msgstr "Cancelar"
 
-#: static/js/main.js:3612
-#, fuzzy
+#: motioneye/static/js/main.js:3656
 msgid "Vi abortis la filmeton."
-msgstr "Você abortou o vídeo."
+msgstr "Você terminou o vídeo."
 
-#: static/js/main.js:3615
-#, fuzzy
+#: motioneye/static/js/main.js:3659
 msgid "Reto eraro okazis."
 msgstr "Ocorreu um erro de rede."
 
-#: static/js/main.js:3618
-#, fuzzy
+#: motioneye/static/js/main.js:3662
 msgid "Malkodado-eraro aŭ neprogresinta funkcio."
-msgstr "Erro de decodificação ou função não projetada."
+msgstr "Erro de decodificação ou função não progredida."
 
-#: static/js/main.js:3621
-#, fuzzy
+#: motioneye/static/js/main.js:3665
 msgid "Formato ne subtenata aŭ neatingebla/netaŭga por ludado."
-msgstr "Formato não compatível ou inacessível / inadequado para reprodução."
+msgstr "Formato não compatível ou inacessível/inadequado para reprodução."
 
-#: static/js/main.js:3624
-#, fuzzy
+#: motioneye/static/js/main.js:3668
 msgid "Nekonata eraro okazis."
 msgstr "Ocorreu um erro desconhecido."
 
-#: static/js/main.js:3627
-#, fuzzy
+#: motioneye/static/js/main.js:3671
 msgid "Eraro : "
-msgstr "Erro:"
+msgstr "Erro: "
 
-#: static/js/main.js:3632
-#, fuzzy
+#: motioneye/static/js/main.js:3676
 msgid "antaŭa bildo"
 msgstr "imagem anterior"
 
-#: static/js/main.js:3637
-#, fuzzy
+#: motioneye/static/js/main.js:3681
 msgid "ludi"
-msgstr "jogar"
+msgstr "Reproduzir"
 
-#: static/js/main.js:3640
-#, fuzzy
+#: motioneye/static/js/main.js:3684
 msgid "ludi * 5 kaj enĉenigi"
-msgstr "jogar * 5 e corrente"
+msgstr "Reproduzir 5 vezes mais rápido"
 
-#: static/js/main.js:3645
-#, fuzzy
+#: motioneye/static/js/main.js:3689
 msgid "sekva bildo"
 msgstr "próxima imagem"
 
-#: static/js/main.js:3768
-#, fuzzy
+#: motioneye/static/js/main.js:3812
 msgid "Fermi"
 msgstr "Fechar"
 
-#: static/js/main.js:3769 static/js/main.js:4330
-#, fuzzy
+#: motioneye/static/js/main.js:3813 motioneye/static/js/main.js:4374
 msgid "Elŝuti"
 msgstr "Baixar"
 
-#: static/js/main.js:3777 static/js/main.js:4333
-#, fuzzy
+#: motioneye/static/js/main.js:3821 motioneye/static/js/main.js:4377
 msgid "Forigi"
-msgstr "Remover"
+msgstr "Excluir"
 
-#: static/js/main.js:3821
-#, fuzzy
+#: motioneye/static/js/main.js:3865
 msgid "Kamerao tipo"
 msgstr "Tipo de câmera"
 
-#: static/js/main.js:3823
-#, fuzzy
+#: motioneye/static/js/main.js:3867
 msgid "Loka V4L2-kamerao"
 msgstr "Câmera V4L2 local"
 
-#: static/js/main.js:3824
-#, fuzzy
+#: motioneye/static/js/main.js:3868
 msgid "Loka MMAL-kamerao"
 msgstr "Câmera MMAL local"
 
-#: static/js/main.js:3825
-#, fuzzy
+#: motioneye/static/js/main.js:3869
 msgid "Reta kamerao"
-msgstr "Webcam"
+msgstr "Câmera de Rede"
 
-#: static/js/main.js:3826
-#, fuzzy
+#: motioneye/static/js/main.js:3870
 msgid "Fora motionEye kamerao"
-msgstr "Câmera externa"
+msgstr "Câmera motionEye externa"
 
-#: static/js/main.js:3827
-#, fuzzy
+#: motioneye/static/js/main.js:3871
 msgid "Simpla MJPEG-kamerao"
 msgstr "Câmera MJPEG simples"
 
-#: static/js/main.js:3829
-#, fuzzy
+#: motioneye/static/js/main.js:3873
 msgid "la speco de kamerao, kiun vi volas aldoni"
-msgstr "o tipo de câmera que você deseja adicionar"
+msgstr "o tipo de câmera, que você deseja adicionar"
 
-#: static/js/main.js:3832
-#, fuzzy
+#: motioneye/static/js/main.js:3876
 msgid "URL"
 msgstr "URL"
 
-#: static/js/main.js:3833
-#, fuzzy
+#: motioneye/static/js/main.js:3877
 msgid "http://ekzemplo.com:8765/cams/..."
-msgstr "http: //example.com: 8765 / cams / ..."
+msgstr "http://exemplo.pt:8765/cams/..."
 
-#: static/js/main.js:3834
-#, fuzzy
+#: motioneye/static/js/main.js:3878
 msgid "la kameraa URL (ekz. http://ekzemplo.com:8080/cam/)"
-msgstr "o URL da câmera (por exemplo, http://example.com:8080/cam/)"
+msgstr "o URL da câmera (por exemplo, http://exemplo.pt:8080/cam/)"
 
-#: static/js/main.js:3838
-#, fuzzy
+#: motioneye/static/js/main.js:3882
 msgid "uzantnomo..."
 msgstr "nome de usuário ..."
 
-#: static/js/main.js:3839
-#, fuzzy
+#: motioneye/static/js/main.js:3883
 msgid "la uzantnomo por la URL, se bezonata (ekz. administranto)"
-msgstr "o nome de usuário para o URL, se necessário (por exemplo, administrador)"
+msgstr "o nome de usuário para o URL, se necessário (p. ex.: admin)"
 
-#: static/js/main.js:3843
-#, fuzzy
+#: motioneye/static/js/main.js:3887
 msgid "pasvorto..."
-msgstr "senha ..."
+msgstr "senha..."
 
-#: static/js/main.js:3844
-#, fuzzy
+#: motioneye/static/js/main.js:3888
 msgid "la pasvorto por la URL, se bezonata"
 msgstr "a senha do URL, se necessário"
 
-#: static/js/main.js:3847
-#, fuzzy
+#: motioneye/static/js/main.js:3891
 msgid "Kamerao"
 msgstr "Camera"
 
-#: static/js/main.js:3849
-#, fuzzy
+#: motioneye/static/js/main.js:3893
 msgid "la kameraon, kiun vi volas aldoni"
-msgstr "a câmera que você deseja adicionar"
+msgstr "a câmera que deseja adicionar"
 
-#: static/js/main.js:3885
-#, fuzzy
+#: motioneye/static/js/main.js:3929
 msgid "Fora motionEye kamerao estas kameraoj instalitaj malantaŭ alia servilo de MotionEye. Aldonante ilin ĉi tie permesos vin rigardi kaj administri ilin de malproksime."
-msgstr "Uma câmera motionEye remota é uma câmera instalada atrás de outro servidor MotionEye. Adicioná-los aqui permitirá que você os assista e gerencie à distância."
+msgstr "Uma câmera motionEye externa é uma câmera instalada atrás de outro servidor MotionEye. Adicioná-las aqui, lhe permitirá a visualização e administração à distância."
 
-#: static/js/main.js:3900
-#, fuzzy
+#: motioneye/static/js/main.js:3944
 msgid "Retaj kameraoj (aŭ IP-kameraoj) estas aparatoj, kiuj denaske fluas RTSP/RTMP aŭ MJPEG-filmetojn aŭ simplajn JPEG-bildojn. Konsultu la manlibron de via aparato por ekscii la ĝustan URL RTSP, RTMP, MJPEG aŭ JPEG."
-msgstr "As câmeras de rede (ou câmeras IP) são dispositivos que transmitem nativamente vídeos RTSP / RTMP ou MJPEG ou imagens JPEG simples. Consulte o manual do seu dispositivo para descobrir o URL RTSP, RTMP, MJPEG ou JPEG correto."
+msgstr "As câmeras de rede (ou câmeras IP) são dispositivos que transmitem nativamente vídeos RTSP/RTMP ou MJPEG, ou imagens JPEG simples. Consulte o manual do seu dispositivo para descobrir o URL de RTSP, RTMP, MJPEG ou JPEG correto."
 
-#: static/js/main.js:3905
-#, fuzzy
+#: motioneye/static/js/main.js:3949
 msgid "Lokaj MMAL-kameraoj estas aparatoj konektitaj rekte al via motionEye-sistemo. Ĉi tiuj estas kutime kart-specifaj kameraoj."
-msgstr "As câmeras MMAL locais são dispositivos conectados diretamente ao seu sistema motionEye. Geralmente, são câmeras específicas para cartões."
+msgstr "As câmeras MMAL locais são dispositivos conectados diretamente ao seu sistema motionEye. Geralmente, são câmeras específicas da placa(board)."
 
-#: static/js/main.js:3920
-#, fuzzy
+#: motioneye/static/js/main.js:3964
 msgid "Aldonante vian aparaton kiel simplan MJPEG-kameraon anstataŭ kiel retan kameraon plibonigos la fotografaĵon, sed neniu moviĝo-detekto, bilda kaptado aŭ registrado de filmoj estos disponebla por ĝi. La kamerao devas esti alirebla por via servilo kaj via retumilo. Ĉi tiu tipo de kamerao ne kongruas kun Internet Explorer."
-msgstr "Adicionar seu dispositivo como uma câmera MJPEG simples, e não como uma câmera da Web, melhorará a fotografia, mas nenhuma detecção de movimento, captura de imagem ou gravação de filme estará disponível para ele. A câmera deve estar acessível ao seu servidor e seu navegador. Este tipo de câmera não corresponde ao Internet Explorer."
+msgstr "Adicionar seu dispositivo como câmera MJPEG simples e não como uma câmera de rede, melhorará a imagem, mas a detecção de movimento, captura de imagem e gravação de filme não estarão disponíveis para essa mesma. A câmera deve estar acessível ao seu servidor e seu navegador. Este tipo de câmera não é compatível ao Internet Explorer."
 
-#: static/js/main.js:3925
-#, fuzzy
+#: motioneye/static/js/main.js:3969
 msgid "Lokaj V4L2-kameraoj estas kameraaj aparatoj konektitaj rekte al via motionEye-sistemo, kutime per USB."
-msgstr "As câmeras V4L2 locais são dispositivos de câmera conectados diretamente ao seu sistema motionEye, geralmente via USB."
+msgstr "As câmeras V4L2 locais são dispositivos de câmera conectados diretamente ao seu sistema motionEye, geralmente por USB."
 
-#: static/js/main.js:4076
-#, fuzzy
+#: motioneye/static/js/main.js:4120
 msgid "Aldonadi kameraon..."
 msgstr "Adicionar câmera ..."
 
-#: static/js/main.js:4148
-#, fuzzy
+#: motioneye/static/js/main.js:4192
 msgid "Grupo"
 msgstr "Grupo"
 
-#: static/js/main.js:4152
-#, fuzzy
+#: motioneye/static/js/main.js:4196
 msgid "Inkluzivi foton prenitan ĉiun"
-msgstr "Inclua uma foto tirada cada"
+msgstr "Incluir uma foto tirada cada"
 
-#: static/js/main.js:4155
-#, fuzzy
+#: motioneye/static/js/main.js:4199
 msgid "sekundo"
 msgstr "segundo"
 
-#: static/js/main.js:4156
-#, fuzzy
+#: motioneye/static/js/main.js:4200
 msgid "5 sekundoj"
 msgstr "5 segundos"
 
-#: static/js/main.js:4157
-#, fuzzy
+#: motioneye/static/js/main.js:4201
 msgid "10 sekundoj"
 msgstr "10 segundos"
 
-#: static/js/main.js:4158
-#, fuzzy
+#: motioneye/static/js/main.js:4202
 msgid "30 sekundoj"
 msgstr "30 segundos"
 
-#: static/js/main.js:4159
-#, fuzzy
+#: motioneye/static/js/main.js:4203
 msgid "minuto"
 msgstr "minuto"
 
-#: static/js/main.js:4160
-#, fuzzy
+#: motioneye/static/js/main.js:4204
 msgid "5 minutoj"
 msgstr "5 minutos"
 
-#: static/js/main.js:4161
-#, fuzzy
+#: motioneye/static/js/main.js:4205
 msgid "10 minutoj"
 msgstr "10 minutos"
 
-#: static/js/main.js:4162
-#, fuzzy
+#: motioneye/static/js/main.js:4206
 msgid "30 minutoj"
 msgstr "30 minutos"
 
-#: static/js/main.js:4163
-#, fuzzy
+#: motioneye/static/js/main.js:4207
 msgid "horo"
-msgstr "uma hora"
+msgstr "hora"
 
-#: static/js/main.js:4166
-#, fuzzy
+#: motioneye/static/js/main.js:4210
 msgid "Elektu la intervalon de tempo inter du elektitaj bildoj."
-msgstr "Selecione o intervalo de tempo entre duas imagens selecionadas."
+msgstr "Escolha o espaço de tempo entre duas fotos tiradas."
 
-#: static/js/main.js:4169
-#, fuzzy
+#: motioneye/static/js/main.js:4213
 msgid "Filmo framfrekvenco"
-msgstr "Taxa de quadros do filme"
+msgstr "Frequência de imagens do filme"
 
-#: static/js/main.js:4171
-#, fuzzy
+#: motioneye/static/js/main.js:4215
 msgid "Elektu kiom rapide vi volas ke la akselita video estu."
-msgstr "Escolha a rapidez com que você deseja que o vídeo acelerado seja."
+msgstr "Escolha a velocidade de reprodução do vídeo de timelapse."
 
-#: static/js/main.js:4180
-#, fuzzy
+#: motioneye/static/js/main.js:4224
 msgid "Konsiderante la grandan nombron da bildoj, krei vian video povus daŭri iom da tempo!"
 msgstr "Considerando o grande número de imagens, a criação do seu vídeo pode levar algum tempo!"
 
-#: static/js/main.js:4197
-#, fuzzy
+#: motioneye/static/js/main.js:4241
 msgid "Krei akselita video"
-msgstr "Crie um vídeo acelerado"
+msgstr "Crie um vídeo timelapse"
 
-#: static/js/main.js:4206
-#, fuzzy
+#: motioneye/static/js/main.js:4250
 msgid "Filmo kreanta en progreso..."
-msgstr "Um filme em andamento ..."
+msgstr "Criando video timelapse..."
 
-#: static/js/main.js:4457
-#, fuzzy
+#: motioneye/static/js/main.js:4501
 msgid "Zipitaj"
-msgstr "Zippered"
+msgstr "Zipado"
 
-#: static/js/main.js:4466
-#, fuzzy
+#: motioneye/static/js/main.js:4510
 msgid "Akselita video"
-msgstr "Vídeo acelerado"
+msgstr "Vídeo Timelapse"
 
-#: static/js/main.js:4477
-#, fuzzy
+#: motioneye/static/js/main.js:4521
 msgid "Forigi ĉiujn"
-msgstr "Remova todos eles"
+msgstr "Excluir todos"
 
-#: static/js/main.js:4619
-#, fuzzy
+#: motioneye/static/js/main.js:4663
 msgid "Bildoj prenitaj de "
-msgstr "Fotos tiradas por"
+msgstr "Fotos tiradas por "
 
-#: static/js/main.js:4622
-#, fuzzy
+#: motioneye/static/js/main.js:4666
 msgid "Filmoj registritaj de "
-msgstr "Filmes gravados por"
+msgstr "Filmes gravados por "
 
-#: static/js/main.js:4684
-#, fuzzy
-msgid "plena ekrano kamerao"
-msgstr "câmera de tela cheia"
+#: motioneye/static/js/main.js:4728
+msgid "montru ĉi tiun fotilon plenekranan"
+msgstr "Mostrar esta câmera em ecrã inteiro"
 
-#: static/js/main.js:4685
-#, fuzzy
+#: motioneye/static/js/main.js:4729
+msgid "montri ĉiujn fotilojn"
+msgstr "Mostrar todas as câmeras"
+
+#: motioneye/static/js/main.js:4730
+msgid "montru nur ĉi tiun fotilon"
+msgstr "Mostrar apenas esta câmera"
+
+#: motioneye/static/js/main.js:4731
 msgid "malfermaj bildoj retumilo"
-msgstr "navegador de imagens abertas"
+msgstr "Abrir navegador de imagens"
 
-#: static/js/main.js:4686
-#, fuzzy
+#: motioneye/static/js/main.js:4732
 msgid "malferma videoj retumilo"
-msgstr "navegador de vídeos abertos"
+msgstr "Abrir navegador de vídeos"
 
-#: static/js/main.js:4687
-#, fuzzy
+#: motioneye/static/js/main.js:4733
 msgid "agordi ĉi tiun kameraon"
-msgstr "coloque esta câmera"
+msgstr "Configurar esta câmera"
 
-#: static/js/main.js:4703
-#, fuzzy
+#: motioneye/static/js/main.js:4749
 msgid "preni instantaron"
-msgstr "tirar uma foto"
+msgstr "Tirar uma foto"
 
-#: static/js/main.js:5051
-#, fuzzy
+#: motioneye/static/js/main.js:5118
 msgid "Vi ankoraŭ ne agordis iun kameraon. Alklaku ĉi tie por aldoni unu ..."
-msgstr "Você ainda não configurou nenhuma câmera. Clique aqui para adicionar ..."
+msgstr "Você ainda não configurou nenhuma câmera. Clique aqui para adicionar uma ..."
 
-#: static/js/ui.js:503
-#, fuzzy
+#: motioneye/static/js/ui.js:503
 msgid "enigu pozitivan nombron"
 msgstr "insira um número positivo"
 
-#: static/js/ui.js:505
-#, fuzzy
+#: motioneye/static/js/ui.js:505
 msgid "enigu pozitivan entjeran nombron"
 msgstr "insira um número inteiro positivo"
 
-#: static/js/ui.js:507
-#, fuzzy
+#: motioneye/static/js/ui.js:507
 msgid "enigu nombron"
 msgstr "insira um número"
 
-#: static/js/ui.js:509
-#, fuzzy
+#: motioneye/static/js/ui.js:509
 msgid "enigu entjeran nombron"
 msgstr "insira um número inteiro"
 
-#: static/js/ui.js:512
-#, fuzzy
+#: motioneye/static/js/ui.js:512
 msgid " inter "
-msgstr "entre"
+msgstr " entre "
 
-#: static/js/ui.js:512
-#, fuzzy
+#: motioneye/static/js/ui.js:512
 msgid " kaj "
-msgstr "e"
+msgstr " e "
 
-#: static/js/ui.js:515
-#, fuzzy
+#: motioneye/static/js/ui.js:515
 msgid " pli ol "
-msgstr "mais que"
+msgstr " mais que "
 
-#: static/js/ui.js:520
-#, fuzzy
+#: motioneye/static/js/ui.js:520
 msgid " malpli ol "
-msgstr "menos que"
+msgstr " menos que "
 
-#: static/js/ui.js:573
-#, fuzzy
+#: motioneye/static/js/ui.js:573
 msgid "enigu validan tempon en la sekva formato: HH:MM"
-msgstr "insira a hora válida no seguinte formato: HH: MM"
+msgstr "insira um horario válido no seguinte formato: HH:MM"
 
-#: static/js/ui.js:630
-#, fuzzy
+#: motioneye/static/js/ui.js:630
 msgid "enigu validan URL (ekz. http://ekzemplo.com:8080/cams/)"
-msgstr "insira um URL válido (por exemplo, http://example.com:8080/cams/)"
+msgstr "insira um URL válido (por exemplo, http://exemplo.pt:8080/cams/)"
 
-#: static/js/ui.js:971
-#, fuzzy
+#: motioneye/static/js/ui.js:971
 msgid "fermi"
 msgstr "fechar"
 
-#: static/js/ui.js:1017 static/js/ui.js:1024
-#, fuzzy
+#: motioneye/static/js/ui.js:1017 motioneye/static/js/ui.js:1024
 msgid "Ne"
 msgstr "Não"
 
-#: static/js/ui.js:1018 static/js/ui.js:1025
-#, fuzzy
+#: motioneye/static/js/ui.js:1018 motioneye/static/js/ui.js:1025
 msgid "Jes"
 msgstr "Sim"
 
-#: static/js/ui.js:1031 static/js/ui.js:1036
-#, fuzzy
+#: motioneye/static/js/ui.js:1031 motioneye/static/js/ui.js:1036
 msgid "Bone"
-msgstr "Ok"
+msgstr "Tá bem"
+
+#: l10n/v4l2.js:4
+msgid "Auto Exposure"
+msgstr "Auto Exposure"
+
+#: l10n/v4l2.js:5
+msgid "Backlight Compensation"
+msgstr "Compensação de Luz de Fundo"
+
+#: l10n/v4l2.js:6
+msgid "Brightness"
+msgstr "Brilho"
+
+#: l10n/v4l2.js:7
+msgid "Contrast"
+msgstr "Contraste"
+
+#: l10n/v4l2.js:8
+msgid "Exposure Absolute"
+msgstr "Exposição absoluta"
+
+#: l10n/v4l2.js:9
+msgid "Exposure Auto"
+msgstr "Exposição automática"
+
+#: l10n/v4l2.js:10
+msgid "Exposure Auto Priority"
+msgstr "Exposure Auto Priority"
+
+#: l10n/v4l2.js:11
+msgid "Exposure Time Absolute"
+msgstr "Tempo de exposição absoluta"
+
+#: l10n/v4l2.js:12
+msgid "Focus Absolute"
+msgstr "Focus absoluto"
+
+#: l10n/v4l2.js:13
+msgid "Focus Auto"
+msgstr "Focus automático"
+
+#: l10n/v4l2.js:14
+msgid "Gain"
+msgstr "Gain"
+
+#: l10n/v4l2.js:15
+msgid "Gamma"
+msgstr "Gamma"
+
+#: l10n/v4l2.js:16
+msgid "Hue"
+msgstr "Hue"
+
+#: l10n/v4l2.js:17
+msgid "Led1 Mode"
+msgstr "Modo LED1"
+
+#: l10n/v4l2.js:18
+msgid "Led1 Frequency"
+msgstr "Frequência LED1"
+
+#: l10n/v4l2.js:19
+msgid "Pan Absolute"
+msgstr "Pan Absoluto"
+
+#: l10n/v4l2.js:20
+msgid "Power Line Frequency"
+msgstr "Frequência da linha de energia"
+
+#: l10n/v4l2.js:21
+msgid "Saturation"
+msgstr "Saturação"
+
+#: l10n/v4l2.js:22
+msgid "Sharpness"
+msgstr "Nitidez"
+
+#: l10n/v4l2.js:23
+msgid "Tilt Absolute"
+msgstr "Inclinação absoluta"
+
+#: l10n/v4l2.js:24
+msgid "White Balance Temperature"
+msgstr "Temperatura do equilíbrio de branco"
+
+#: l10n/v4l2.js:25
+msgid "White Balance Temperature Auto"
+msgstr "Temperatura de equilíbrio de branco Automatica"
+
+#: l10n/v4l2.js:26
+msgid "Zoom Absolute"
+msgstr "Zoom absoluto"
+
+#, fuzzy
+#~ msgid "plena ekrano kamerao"
+#~ msgstr "câmera de tela cheia"
 
 #, fuzzy
 #~ msgid "Formato ne subtenata aŭ alimaniere neuzebla / neuzebla por ludado."

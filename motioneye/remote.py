@@ -76,18 +76,19 @@ def _make_request(
 
 
 async def _send_request(request: HTTPRequest) -> HTTPResponse:
-    response = await AsyncHTTPClient().fetch(request)
+    response = await AsyncHTTPClient().fetch(request, raise_error=False)
 
-    try:
-        decoded = json.loads(response.body)
-        if decoded['error'] == 'unauthorized':
-            response.error = 'Authentication Error'
+    if response.code != 200:
+        try:
+            decoded = json.loads(response.body)
+            if decoded['error'] == 'unauthorized':
+                response.error = 'Authentication Error'
 
-        elif decoded['error']:
-            response.error = decoded['error']
+            elif decoded['error']:
+                response.error = decoded['error']
 
-    except:
-        pass
+        except Exception as e:
+            logging.error(f"_send_request: {e}")
 
     return response
 
@@ -184,7 +185,6 @@ async def list_cameras(local_config) -> utils.GetCamerasResponse:
         return utils.GetCamerasResponse(None, str(e))
 
     else:
-
         cameras = response['cameras']
 
         # filter out simple mjpeg cameras
@@ -271,7 +271,7 @@ async def set_config(local_config, ui_config) -> Union[str, None]:
         password,
         p,
         method='POST',
-        data=ui_config,
+        data=ui_config.encode(),
         content_type='application/json',
     )
     response = await _send_request(request)

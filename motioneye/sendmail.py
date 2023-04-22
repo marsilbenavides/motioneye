@@ -78,7 +78,7 @@ def make_message(subject, message, camera_id, moment, timespan, callback):
     camera_config = config.get_camera(camera_id)
 
     # we must start the IO loop for the media list subprocess polling
-    io_loop = IOLoop.instance()
+    io_loop = IOLoop.current()
 
     def on_media_files(media_files):
         io_loop.stop()
@@ -90,7 +90,9 @@ def make_message(subject, message, camera_id, moment, timespan, callback):
 
             # filter out non-recent media files
             media_files = [
-                m for m in media_files if abs(m['timestamp'] - timestamp) < timespan
+                m
+                for m in media_files.result()
+                if abs(m['timestamp'] - timestamp) < timespan
             ]
             media_files.sort(key=lambda m: m['timestamp'], reverse=True)
             media_files = [

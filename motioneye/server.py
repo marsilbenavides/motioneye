@@ -44,8 +44,6 @@ from motioneye.handlers.relay_event import RelayEventHandler
 from motioneye.handlers.update import UpdateHandler
 from motioneye.handlers.version import VersionHandler
 
-from .meyectl import lingvo
-
 _PID_FILE = 'motioneye.pid'
 _CURRENT_PICTURE_REGEX = re.compile(r'^/picture/\d+/current')
 
@@ -98,7 +96,7 @@ class Daemon:
             os.remove(self.pid_file)
 
         except:
-            pass
+            sys.stderr.write('failed to remove pid file.\n')
 
     def running(self):
         try:
@@ -157,7 +155,7 @@ class Daemon:
                 os.kill(pid, signal.SIGKILL)
 
             except:
-                pass
+                sys.stderr.write('failed to kill...\n')
 
 
 def _log_request(handler):
@@ -231,10 +229,10 @@ handler_mapping = [
 
 def configure_signals():
     def bye_handler(signal, frame):
-        logging.info(_('interrompa signalo ricevita, fermanta ...'))
+        logging.info(_('interrompa signalo ricevita, fermanta …'))
 
         # shut down the IO loop if it has been started
-        io_loop = IOLoop.instance()
+        io_loop = IOLoop.current()
         io_loop.stop()
 
     def child_handler(signal, frame):
@@ -362,11 +360,10 @@ def make_media_folders():
 def start_motion():
     from motioneye import config, motionctl
 
-    io_loop = IOLoop.instance()
+    io_loop = IOLoop.current()
 
     # add a motion running checker
     def checker():
-
         if (
             not motionctl.running()
             and motionctl.started()
@@ -453,7 +450,7 @@ def run():
         logging.info('smb mounts started')
 
     template.add_context('static_path', 'static/')
-    template.add_context('lingvo', lingvo)
+    template.add_context('lingvo', settings.lingvo)
 
     application = Application(
         handler_mapping,
@@ -465,7 +462,7 @@ def run():
 
     application.listen(settings.PORT, settings.LISTEN)
     logging.info(_('servilo komenciĝis'))
-    io_loop = IOLoop.instance()
+    io_loop = IOLoop.current()
     # we need to reset the loop's PID to fix PID checks when running in daemon mode
     io_loop._pid = os.getpid()
     io_loop.start()
