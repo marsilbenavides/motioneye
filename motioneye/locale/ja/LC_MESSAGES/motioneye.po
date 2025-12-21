@@ -4,22 +4,51 @@
 # Automatically generated, 2020.
 #
 # seoooma <sooooomasum@gmail.com>, 2023.
-# qnotions <qnotions@gmail.com>, 2024.
+# qnotions <qnotions@gmail.com>, 2024, 2025.
+# Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2025.
+# LibreTranslate <noreply-mt-libretranslate@weblate.org>, 2025.
+# MichaIng <micha@dietpi.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-09-19 16:57+0000\n"
-"PO-Revision-Date: 2024-10-28 17:00+0000\n"
-"Last-Translator: qnotions <qnotions@gmail.com>\n"
+"POT-Creation-Date: 2025-12-11 05:01+0000\n"
+"PO-Revision-Date: 2025-12-11 21:09+0000\n"
+"Last-Translator: MichaIng <micha@dietpi.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/motioneye-project/motioneye-python-texts/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.8.2-dev\n"
+"X-Generator: Weblate 5.15-dev\n"
 "Generated-By: Babel 2.6.0\n"
+
+#: motioneye/config.py:860
+#, fuzzy
+msgid "Device names are only allowed to contain alphanumerical characters, hyphen -, underscore _, plus +, and space"
+msgstr "デバイス名には英数字、ハイフン（-）、アンダースコア（_）、プラス（+）、スペースのみを含めることができます"
+
+#: motioneye/config.py:864
+#, fuzzy
+msgid "File names are only allowed to contain alphanumerical characters, parenthesis (), forward slash /, dot ., underscore _, hyphen -, space, and a subset of motion conversion specifiers: %C %Y %m %d %H %M %S %q %v"
+msgstr "ファイルは、英数字、括弧()、フォワード/ドット、アンダースコア、ハイフン、空間、およびモーション属性のサブセットにのみ同等です。 %C %Y %m %d %H %M %S %q %v"
+
+#: motioneye/config.py:869
+#, fuzzy
+msgid "Directory names are only allowed to contain alphanumerical characters, space, parenthesis (), forward slash /, dot ., underscore _, and hyphen -"
+msgstr "ディレクトリ名は、英数字、空間的、括弧()、フォワース/ドット、アンダースコア、ハイフンと等価です"
+
+#: motioneye/config.py:874
+#, fuzzy
+msgid "Email addresses are only allowed to contain alphanumerical characters, underscore _, plus +, dot ., at @, caret ^, tilde ~, angle brackets <>, hyphen -, and may be separated by comma, and space"
+msgstr "電子メールプロトコルは、英数字、アンダースコア、プラス+、ドットへのガイドです。@、caret^、チルド〜、 英語の名詞 < >, hyphen -, comma で罰金になるかもしれない, 空間的に"
+
+#: motioneye/config.py:879
+#, fuzzy
+msgid "URLs are not allowed to contain caret ^, semicolon ;, or apostrophe '"
+msgstr "URL は \"Complier\"、セミコロン、または apostrophe として知られていません。 お問い合わせ"
 
 #: motioneye/server.py:232
 msgid "interrompa signalo ricevita, fermanta …"
@@ -56,15 +85,16 @@ msgstr "クリーンアップを開始しました"
 #: motioneye/server.py:439
 #, fuzzy
 msgid "wsswitch komenciĝis"
-msgstr "wsswitchが開始しました"
+msgstr "wsswitchが始まりました"
 
 #: motioneye/server.py:442
 msgid "taskoj komenciĝis"
 msgstr "開始したタスク"
 
 #: motioneye/server.py:446
+#, fuzzy
 msgid "mjpg klienta rubo-kolektanto komenciĝis"
-msgstr "mjpg customer garbage collectorが開始しました"
+msgstr "mjpgクライアントガベージコレクタを開始しました"
 
 #: motioneye/server.py:464
 msgid "servilo komenciĝis"
@@ -85,7 +115,7 @@ msgstr "motionが停止しました"
 #: motioneye/server.py:485
 #, fuzzy
 msgid "adiaŭ!"
-msgstr "さようなら！"
+msgstr "ファレウェル!"
 
 #: motioneye/templates/main.html:104
 #, fuzzy
@@ -151,7 +181,7 @@ msgstr "解像度低減"
 
 #: motioneye/templates/main.html:155
 msgid "reduktas la efektivan rezolucion de ĉiuj fotiloj por ŝpari retan larĝan bandon kaj trafikon (ne funkcias en simplaj MJPEG-fotiloj)"
-msgstr "すべてのカメラの有効解像度を下げて、ネットワーク帯域とトラフィックを節約します（単純なMJPEGカメラでは機能しません）。"
+msgstr "すべてのカメラの有効解像度を下げて、ネットワーク帯域とトラフィックを節約します（単純なMJPEGカメラでは機能しません）"
 
 #: motioneye/templates/main.html:161
 msgid "ĝeneralaj parametroj, komunaj al ĉiuj fotiloj"
@@ -294,7 +324,7 @@ msgstr "カメラデバイス"
 #: motioneye/templates/main.html:283
 #, fuzzy
 msgid "Eniga aparato (ekz. : /dev/video) or URL (ekz. : rtsp://192.168.1.1/stream)"
-msgstr "入力デバイス（例：/ dev / video）またはURL（例：rtsp：//192.168.1.1/stream）"
+msgstr "入力デバイス（例：/dev/video）またはURL（例：rtsp://192.168.1.1/stream）"
 
 #: motioneye/templates/main.html:286
 #, fuzzy
@@ -377,7 +407,7 @@ msgstr "マスクを保存"
 #: motioneye/templates/main.html:350
 #, fuzzy
 msgid "alklaku ĉi tiun butonon por ebligi/malebligi la maskan redaktilon"
-msgstr "このボタンをクリックして、マスクエディターを有効/無効にします"
+msgstr "このボタンをクリックすると、マスクエディタを有効/無効にできます"
 
 #: motioneye/templates/main.html:361
 msgid "Ekstraj Elektoj"
@@ -657,7 +687,7 @@ msgstr "必要な詳細設定を入力した後、このボタンをクリック
 #: motioneye/templates/main.html:563
 #, fuzzy
 msgid "alvoki URL"
-msgstr "URLを呼び出す"
+msgstr "URL呼び出し"
 
 #: motioneye/templates/main.html:565
 #, fuzzy
@@ -675,9 +705,8 @@ msgid "ekz. http://example.com/notify/"
 msgstr "例　http://example.com/notify/"
 
 #: motioneye/templates/main.html:570
-#, python-format
-msgid "URL por transdoni kiam moviĝo estas detektita; la sekvaj specialaj ŝparvojoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero,%%f = dosiera vojo"
-msgstr "動きが検出されたときに送信するURL。次の特別なトークンを使用できます：%% Y =年、%% m =月、%% d =日、%% H =時間、%% M =分、%% S =秒、%% q =フレーム番号、 %% v =イベント番号、%% f =ファイルパス"
+msgid "URL por transdoni kiam moviĝo estas detektita; la sekvaj specialaj ŝparvojoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero,%f = dosiera vojo"
+msgstr "動きが検出されたときに送信するURL。次の特別なトークンを使用できます：%Y =年、%m =月、%d =日、%H =時間、%M =分、%S =秒、%q =フレーム番号、 %v =イベント番号、%f =ファイルパス"
 
 #: motioneye/templates/main.html:573 motioneye/templates/main.html:1141
 #: motioneye/templates/main.html:1186
@@ -708,9 +737,8 @@ msgid "ordono…"
 msgstr "コマンド …"
 
 #: motioneye/templates/main.html:595
-#, python-format
-msgid "Komando por esti plenumita post la kreo de plurmedia dosiero. Pluraj komandoj povas esti apartigitaj per punktoknomo; ne uzu punktoknomo en komandojn; la sekvaj specialaj tokensoj estas akceptitaj: %%Y = jaro, %%m = monato, %%d = tago, %%H = horo, %%M = minuto, %%S = sekundo, %%q = kadra numero , %%v = okaza numero, %%f = dosiera vojo"
-msgstr "マルチメディアファイルの作成後に実行するコマンド。いくつかのコマンドはセミコロンで区切ることができます。コマンド内でセミコロンを使用しないでください。次の特別なトークンが受け入れられます：%% Y =年、%% m =月、%% d =日、%% H =時間、%% M =分、%% S =秒、%% q =フレーム番号、 %% v =イベント番号、%% f =ファイルパス"
+msgid "Komando por esti plenumita post la kreo de plurmedia dosiero. Pluraj komandoj povas esti apartigitaj per punktoknomo; ne uzu punktoknomo en komandojn; la sekvaj specialaj tokensoj estas akceptitaj: %Y = jaro, %m = monato, %d = tago, %H = horo, %M = minuto, %S = sekundo, %q = kadra numero , %v = okaza numero, %f = dosiera vojo"
+msgstr "マルチメディアファイルの作成後に実行するコマンド。いくつかのコマンドはセミコロンで区切ることができます。コマンド内でセミコロンを使用しないでください。次の特別なトークンが受け入れられます：%Y =年、%m =月、%d =日、%H =時間、%M =分、%S =秒、%q =フレーム番号、 %v =イベント番号、%f =ファイルパス"
 
 #: motioneye/templates/main.html:605
 msgid "elektu kiajn informojn montras sur la kaptitaj kadroj"
@@ -748,12 +776,12 @@ msgstr "動画や画像の左下に表示されるテキストを設定します
 #: motioneye/templates/main.html:624 motioneye/templates/main.html:641
 #, fuzzy
 msgid "propra teksto…"
-msgstr "カスタムテキスト..."
+msgstr "カスタムテキスト…"
 
 #: motioneye/templates/main.html:625
-#, fuzzy, python-format
-msgid "Difinas kutimon maldekstran tekston; la sekvaj specialaj tokensoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero,%%T = HH:MM:SS, \\n = nova linio"
-msgstr "カスタム左テキストを定義します。次の特別なトークンが受け入れられます：%% Y =年、%% m =月、%% d =日、%% H =時間、%% M =分、%% S =秒、%% q =フレーム番号、 %% v =イベント番号、%% T = HH：MM：SS、\\ n =改行"
+#, fuzzy
+msgid "Difinas kutimon maldekstran tekston; la sekvaj specialaj tokensoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero,%T = HH:MM:SS, \\n = nova linio"
+msgstr "左揃えテキストのカスタム定義。以下の特殊トークンが使用可能です：%Y = 年、%m = 月、%d = 日、%H = 時、%M = 分、%S = 秒、%q = フレーム番号、%v = イベント番号、%T = HH:MM:SS、\\n = 改行"
 
 #: motioneye/templates/main.html:628
 msgid "Dekstra Teksto"
@@ -764,9 +792,9 @@ msgid "Fiksas la tekston montritan sur la filmoj kaj bildoj, sur la malsupra dek
 msgstr "動画や画像の右下に表示されるテキストを設定します"
 
 #: motioneye/templates/main.html:642
-#, python-format
-msgid "Difinas kutimon dekstran tekston; la sekvaj specialaj tokensoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero,%%T = HH:MM:SS, \\n = nova linio"
-msgstr "カスタムの右テキストを定義します。次の特別なトークンが受け入れられます：%% Y =年、%% m =月、%% d =日、%% H =時間、%% M =分、%% S =秒、%% q =フレーム番号、 %% v =イベント番号、%% T = HH：MM：SS、\\ n =改行"
+#, fuzzy
+msgid "Difinas kutimon dekstran tekston; la sekvaj specialaj tokensoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero,%T = HH:MM:SS, \\n = nova linio"
+msgstr "右寄せテキストのフォーマットを定義します。以下の特殊トークンが使用可能です：%Y = 年、%m = 月、%d = 日、%H = 時、%M = 分、%S = 秒、%q = フレーム番号、%v = イベント番号、%T = HH:MM:SS、\\n = 改行"
 
 #: motioneye/templates/main.html:645
 msgid "Teksta Skalo"
@@ -888,12 +916,12 @@ msgstr "画像ファイル名"
 #: motioneye/templates/main.html:748 motioneye/templates/main.html:817
 #, fuzzy
 msgid "dosiernomo ŝablono…"
-msgstr "ファイル名テンプレート..."
+msgstr "ファイル名テンプレート…"
 
 #: motioneye/templates/main.html:749
-#, python-format
-msgid "Difinas la nomon ŝablonon por bilddosieroj (JPEG); la sekvaj specialaj tokensoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero, / = subdosierujo."
-msgstr "JPEGファイル名のテンプレートを定義します。次の特別なトークンが受け入れられます：%% Y =年、%% m =月、%% d =日、%% H =時間、%% M =分、%% S =秒、%% q =フレーム番号、 %% v =イベント番号、/ =サブディレクトリ。"
+#, fuzzy
+msgid "Difinas la nomon ŝablonon por bilddosieroj (JPEG); la sekvaj specialaj tokensoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero, / = subdosierujo."
+msgstr "画像（JPEG）ファイルの名前パターンを設定します。以下の特殊トークンが使用可能です：%Y = 年、%m = 月、%d = 日、%H = 時、%M = 分、%S = 秒、%q = フレーム番号、%v = イベント番号、/ = サブフォルダ。"
 
 #: motioneye/templates/main.html:752
 #, fuzzy
@@ -1027,9 +1055,8 @@ msgid "Filma Dosiernomo"
 msgstr "動画ファイル名"
 
 #: motioneye/templates/main.html:818
-#, python-format
-msgid "Difinas la nomon ŝablonon por por la filmdosieroj; la sekvaj specialaj tokensoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero, / = subdosierujo."
-msgstr "動画ファイル名のテンプレートを定義します。次の特別なトークンが受け入れられます：%% Y =年、%% m =月、%% d =日、%% H =時間、%% M =分、%% S =秒、%% q =フレーム番号、 %% v =イベント番号、/ =サブディレクトリ。"
+msgid "Difinas la nomon ŝablonon por por la filmdosieroj; la sekvaj specialaj tokensoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero, / = subdosierujo."
+msgstr "動画ファイル名のテンプレートを定義します。次の特別なトークンが受け入れられます：%Y =年、%m =月、%d =日、%H =時間、%M =分、%S =秒、%q =フレーム番号、 %v =イベント番号、/ =サブディレクトリ。"
 
 #: motioneye/templates/main.html:821
 msgid "Rekta kopia filmeto"
@@ -1155,9 +1182,8 @@ msgid "Detekto de lumaj ŝanĝoj"
 msgstr "周辺光変化の検出"
 
 #: motioneye/templates/main.html:951
-#, python-format
-msgid "Difinas la procenton de la bildo, kiu bezonas ŝanĝi, por ke la evento estu traktata kiel subita luma ŝanĝo anstataŭ moviĝo (0%% malebligas la funkcion)."
-msgstr "動き検知ではなく突然の周辺光の変化として扱う画素変化をパーセンテージで設定します（0 %%で無効になります）。"
+msgid "Difinas la procenton de la bildo, kiu bezonas ŝanĝi, por ke la evento estu traktata kiel subita luma ŝanĝo anstataŭ moviĝo (0% malebligas la funkcion)."
+msgstr "動き検知ではなく突然の周辺光の変化として扱う画素変化をパーセンテージで設定します（0%で無効になります）。"
 
 #: motioneye/templates/main.html:954
 msgid "Makula filtrilo"
@@ -1296,7 +1322,7 @@ msgstr "メールアドレス"
 #: motioneye/templates/main.html:1057
 #, fuzzy
 msgid "retpoŝtadresoj…"
-msgstr "メールアドレス ..."
+msgstr "メールアドレス…"
 
 #: motioneye/templates/main.html:1058
 msgid "Retpoŝtadresoj (apartigitaj per komo) aldonitaj ĉi tie ricevos sciigojn kiam ajn moviĝokazaĵo estas detektita."
@@ -1359,7 +1385,7 @@ msgstr "差出人アドレス"
 #: motioneye/templates/main.html:1082
 #, fuzzy
 msgid "retpoŝta adreso…"
-msgstr "電子メールアドレス ..."
+msgstr "電子メールアドレス…"
 
 #: motioneye/templates/main.html:1083
 msgid "Agordi kutimon De adreso, se via SMTP-servo postulas unu (la unua destina retpoŝta adreso estos uzata se lasita malplena)."
@@ -1457,14 +1483,13 @@ msgid "ekz. http://ekzemplo.com/sciigi/"
 msgstr "例　http://example.com/search/"
 
 #: motioneye/templates/main.html:1138
-#, python-format
-msgid "URL por esti petita kiam moviĝo estas detektita; la sekvaj specialaj ŝparvojoj estas akceptitaj: %%Y = jaro, %%m = monato, %%d = tago, %%H = horo, %%M = minuto, %%S = sekundo, %%q = kadro-numero, %%v = okaza numero"
-msgstr "動き検知されたときに要求するURL。次の特別なトークンを使用できます：%% Y =年、%% m =月、%% d =日、%% H =時間、%% M =分、%% S =秒、%% q =フレーム番号、%% v =イベント番号"
+msgid "URL por esti petita kiam moviĝo estas detektita; la sekvaj specialaj ŝparvojoj estas akceptitaj: %Y = jaro, %m = monato, %d = tago, %H = horo, %M = minuto, %S = sekundo, %q = kadro-numero, %v = okaza numero"
+msgstr "動き検知されたときに要求するURL。次の特別なトークンを使用できます：%Y =年、%m =月、%d =日、%H =時間、%M =分、%S =秒、%q =フレーム番号、%v =イベント番号"
 
 #: motioneye/templates/main.html:1150 motioneye/templates/main.html:1195
 #, fuzzy
 msgid "La HTTP-metodo por uzi kiam vi petas URL (la donitaj URL-parametroj estos transdonitaj kiel indikite ĉi tie)."
-msgstr "URLを要求するときに使用するHTTPメソッド（指定されたURLパラメーターは、ここに示されているように配信されます）。"
+msgstr "ネットワークフックURLを要求するときに使用するHTTPメソッド（指定されたURLエンコードパラメータは、実際にはここで表示された形で送信されます）."
 
 #: motioneye/templates/main.html:1156 motioneye/templates/main.html:1201
 msgid "Lanĉi komando"
@@ -1484,18 +1509,16 @@ msgid "komando…"
 msgstr "コマンド …"
 
 #: motioneye/templates/main.html:1163
-#, python-format
-msgid "Komando por esti lanĉa kiam moviĝo estas detektita; multnombraj komandoj povas esti apartigitaj per dupunkto; ne uzu punktokomojn per komandoj; la sekvaj specialaj tokensoj estas akceptitaj: %%Y = jaro, %%m = monato, %%d = tago, %%H = horo, %%M = minuto, %%S = sekundo, %%q = kadro-numero, %%v = okaza numero"
-msgstr "動き検知されたときに起動するコマンド。複数のコマンドはコロンで区切ることができます。コマンド内でセミコロンを使用しないでください。次の特別なトークンが受け入れられます：%% Y =年、%% m =月、%% d =日、%% H =時間、%% M =分、%% S =秒、%% q =フレーム番号、%% v =イベント番号"
+msgid "Komando por esti lanĉa kiam moviĝo estas detektita; multnombraj komandoj povas esti apartigitaj per dupunkto; ne uzu punktokomojn per komandoj; la sekvaj specialaj tokensoj estas akceptitaj: %Y = jaro, %m = monato, %d = tago, %H = horo, %M = minuto, %S = sekundo, %q = kadro-numero, %v = okaza numero"
+msgstr "動き検知されたときに起動するコマンド。複数のコマンドはコロンで区切ることができます。コマンド内でセミコロンを使用しないでください。次の特別なトークンが受け入れられます：%Y =年、%m =月、%d =日、%H =時間、%M =分、%S =秒、%q =フレーム番号、%v =イベント番号"
 
 #: motioneye/templates/main.html:1203
 msgid "Ebligu ĉi tion, se vi volas lanĉi komandon ĉiufoje kiam movada evento finiĝos."
 msgstr "これを有効にすると、動き検知イベントが終了したときにコマンドを実行します。"
 
 #: motioneye/templates/main.html:1208
-#, python-format
-msgid "Komando por esti lanĉa kiam moviĝokazaĵo finiĝas; multnombraj komandoj povas esti apartigitaj per dupunkto; ne uzu punktokompojn per komandoj; la sekvaj specialaj tokensoj estas akceptitaj: %%Y = jaro, %%m = monato, %%d = dato, %%H = horo, %%M = minuto, %%S = sekundo, %%q = kadra nombro."
-msgstr "動き検知イベントの終了時に起動するコマンド。複数のコマンドはコロンで区切ることができます。コマンドでセミコロンを使用しないでください。次の特別なトークンが受け入れられます：%% Y =年、%% m =月、%% d =日付、%% H =時間、%% M =分、%% S =秒、%% q =フレーム番号。"
+msgid "Komando por esti lanĉa kiam moviĝokazaĵo finiĝas; multnombraj komandoj povas esti apartigitaj per dupunkto; ne uzu punktokompojn per komandoj; la sekvaj specialaj tokensoj estas akceptitaj: %Y = jaro, %m = monato, %d = dato, %H = horo, %M = minuto, %S = sekundo, %q = kadra nombro."
+msgstr "動き検知イベントの終了時に起動するコマンド。複数のコマンドはコロンで区切ることができます。コマンドでセミコロンを使用しないでください。次の特別なトークンが受け入れられます：%Y =年、%m =月、%d =日付、%H =時間、%M =分、%S =秒、%q =フレーム番号。"
 
 #: motioneye/templates/main.html:1218
 msgid "Ebligu ĉi tion, se vi volas difini ĉiusemajnan horaron por detekto de moviĝo."

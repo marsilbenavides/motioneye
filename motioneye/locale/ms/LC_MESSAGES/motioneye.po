@@ -4,22 +4,48 @@
 # Automatically generated, 2020.
 #
 # piet <piet@users.noreply.hosted.weblate.org>, 2024.
-# Zhang Wei <Zhang@users.noreply.hosted.weblate.org>, 2024.
+# Zhang Wei <Zhang@users.noreply.hosted.weblate.org>, 2024, 2025.
+# MichaIng <micha@dietpi.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-09-19 16:57+0000\n"
-"PO-Revision-Date: 2024-10-20 10:16+0000\n"
-"Last-Translator: Zhang Wei <Zhang@users.noreply.hosted.weblate.org>\n"
+"POT-Creation-Date: 2025-12-11 05:01+0000\n"
+"PO-Revision-Date: 2025-12-11 21:09+0000\n"
+"Last-Translator: MichaIng <micha@dietpi.com>\n"
 "Language-Team: Malay <https://hosted.weblate.org/projects/motioneye-project/motioneye-python-texts/ms/>\n"
 "Language: ms\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.8-rc\n"
+"X-Generator: Weblate 5.15-dev\n"
 "Generated-By: Babel 2.6.0\n"
+
+#: motioneye/config.py:860
+#, fuzzy
+msgid "Device names are only allowed to contain alphanumerical characters, hyphen -, underscore _, plus +, and space"
+msgstr "Nama peranti hanya dibenarkan mengandungi aksara alfanumerik, tanda hubung -, garis bawah _, tanda lebih +, dan ruang"
+
+#: motioneye/config.py:864
+#, fuzzy
+msgid "File names are only allowed to contain alphanumerical characters, parenthesis (), forward slash /, dot ., underscore _, hyphen -, space, and a subset of motion conversion specifiers: %C %Y %m %d %H %M %S %q %v"
+msgstr "Nama fail hanya dibenarkan mengandungi aksara alfanumerik, kurungan (), slai hadapan /, titik ., garisan bawah _, tanda hubung -, ruang, dan subset penentu penukaran gerakan: %C %Y %m %d %H %M %S %q %v"
+
+#: motioneye/config.py:869
+#, fuzzy
+msgid "Directory names are only allowed to contain alphanumerical characters, space, parenthesis (), forward slash /, dot ., underscore _, and hyphen -"
+msgstr "Nama direktori hanya dibenarkan mengandungi aksara alfanumerik, ruang, kurungan (), slaš hadapan /, titik ., garisan bawah _, dan tanda hubung -"
+
+#: motioneye/config.py:874
+#, fuzzy
+msgid "Email addresses are only allowed to contain alphanumerical characters, underscore _, plus +, dot ., at @, caret ^, tilde ~, angle brackets <>, hyphen -, and may be separated by comma, and space"
+msgstr "Alamat e-mel hanya dibenarkan mengandungi aksara alfanumerik, underscore _, plus +, titik ., at @, caret ^, tilde ~, kurungan sudut <>, hyphen -, dan boleh dipisahkan dengan koma dan ruang"
+
+#: motioneye/config.py:879
+#, fuzzy
+msgid "URLs are not allowed to contain caret ^, semicolon ;, or apostrophe '"
+msgstr "URL tidak dibenarkan mengandungi tanda caret ^, titik koma ;, atau tanda petik '"
 
 #: motioneye/server.py:232
 #, fuzzy
@@ -789,9 +815,9 @@ msgid "ekz. http://example.com/notify/"
 msgstr "contohnya. http://example.com/notify/"
 
 #: motioneye/templates/main.html:570
-#, fuzzy, python-format
-msgid "URL por transdoni kiam moviĝo estas detektita; la sekvaj specialaj ŝparvojoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero,%%f = dosiera vojo"
-msgstr "URL untuk dihantar apabila gerakan dikesan; pintasan khas berikut diterima: %% Y = tahun, %% m = bulan, %% d = hari, %% H = jam, %% M = minit, %% S = kedua, %% q = %% v = nombor acara, %% f = laluan fail"
+#, fuzzy
+msgid "URL por transdoni kiam moviĝo estas detektita; la sekvaj specialaj ŝparvojoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero,%f = dosiera vojo"
+msgstr "URL untuk dihantar apabila gerakan dikesan; pintasan khas berikut diterima: %Y = tahun, %m = bulan, %d = hari, %H = jam, %M = minit, %S = kedua, %q = %v = nombor acara, %f = laluan fail"
 
 #: motioneye/templates/main.html:573 motioneye/templates/main.html:1141
 #: motioneye/templates/main.html:1186
@@ -822,12 +848,12 @@ msgstr "Perintah"
 #: motioneye/templates/main.html:594
 #, fuzzy
 msgid "ordono…"
-msgstr "Memerintahkan ..."
+msgstr "Memerintahkan…"
 
 #: motioneye/templates/main.html:595
-#, fuzzy, python-format
-msgid "Komando por esti plenumita post la kreo de plurmedia dosiero. Pluraj komandoj povas esti apartigitaj per punktoknomo; ne uzu punktoknomo en komandojn; la sekvaj specialaj tokensoj estas akceptitaj: %%Y = jaro, %%m = monato, %%d = tago, %%H = horo, %%M = minuto, %%S = sekundo, %%q = kadra numero , %%v = okaza numero, %%f = dosiera vojo"
-msgstr "Perintah yang akan dilaksanakan selepas membuat fail multimedia. Beberapa perintah boleh dipisahkan dengan koma bertitik; jangan gunakan titik koma dalam arahan; butiran khas berikut diterima: %% Y = tahun, %% m = bulan, %% d = hari, %% H = jam, %% M = minit, %% S = kedua, %% q = %% v = nombor acara, %% f = laluan fail"
+#, fuzzy
+msgid "Komando por esti plenumita post la kreo de plurmedia dosiero. Pluraj komandoj povas esti apartigitaj per punktoknomo; ne uzu punktoknomo en komandojn; la sekvaj specialaj tokensoj estas akceptitaj: %Y = jaro, %m = monato, %d = tago, %H = horo, %M = minuto, %S = sekundo, %q = kadra numero , %v = okaza numero, %f = dosiera vojo"
+msgstr "Perintah yang akan dilaksanakan selepas membuat fail multimedia. Beberapa perintah boleh dipisahkan dengan koma bertitik; jangan gunakan titik koma dalam arahan; butiran khas berikut diterima: %Y = tahun, %m = bulan, %d = hari, %H = jam, %M = minit, %S = kedua, %q = %v = nombor acara, %f = laluan fail"
 
 #: motioneye/templates/main.html:605
 #, fuzzy
@@ -868,12 +894,12 @@ msgstr "Menetapkan teks yang dipaparkan pada filem dan gambar, di sudut kiri baw
 #: motioneye/templates/main.html:624 motioneye/templates/main.html:641
 #, fuzzy
 msgid "propra teksto…"
-msgstr "Teks tersuai ..."
+msgstr "Teks tersuai…"
 
 #: motioneye/templates/main.html:625
-#, fuzzy, python-format
-msgid "Difinas kutimon maldekstran tekston; la sekvaj specialaj tokensoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero,%%T = HH:MM:SS, \\n = nova linio"
-msgstr "Menetapkan teks kiri tersendiri; butiran khas berikut diterima: %% Y = tahun, %% m = bulan, %% d = hari, %% H = jam, %% M = minit, %% S = kedua, %% q = %% v = nombor acara, %% T = HH: MM: SS, \\n = baris baru"
+#, fuzzy
+msgid "Difinas kutimon maldekstran tekston; la sekvaj specialaj tokensoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero,%T = HH:MM:SS, \\n = nova linio"
+msgstr "Menetapkan teks kiri tersendiri; butiran khas berikut diterima: %Y = tahun, %m = bulan, %d = hari, %H = jam, %M = minit, %S = kedua, %q = %v = nombor acara, %T = HH: MM: SS, \\n = baris baru"
 
 #: motioneye/templates/main.html:628
 #, fuzzy
@@ -886,9 +912,9 @@ msgid "Fiksas la tekston montritan sur la filmoj kaj bildoj, sur la malsupra dek
 msgstr "Menetapkan teks yang dipaparkan pada filem dan gambar, di sudut kanan bawah"
 
 #: motioneye/templates/main.html:642
-#, fuzzy, python-format
-msgid "Difinas kutimon dekstran tekston; la sekvaj specialaj tokensoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero,%%T = HH:MM:SS, \\n = nova linio"
-msgstr "Menetapkan teks hak tersuai; butiran khas berikut diterima: %% Y = tahun, %% m = bulan, %% d = hari, %% H = jam, %% M = minit, %% S = kedua, %% q = %% v = nombor acara, %% T = HH: MM: SS, \\n = baris baru"
+#, fuzzy
+msgid "Difinas kutimon dekstran tekston; la sekvaj specialaj tokensoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero,%T = HH:MM:SS, \\n = nova linio"
+msgstr "Menentukan format teks di sebelah kanan; token khas berikut diterima: %Y = tahun, %m = bulan, %d = hari, %H = jam, %M = minit, %S = saat, %q = nombor bingkai, %v = nombor acara, %T = HH:MM:SS, \\n = baris baru"
 
 #: motioneye/templates/main.html:645
 #, fuzzy
@@ -1033,12 +1059,12 @@ msgstr "Nama Fail Imej"
 #: motioneye/templates/main.html:748 motioneye/templates/main.html:817
 #, fuzzy
 msgid "dosiernomo ŝablono…"
-msgstr "Templat nama fail ..."
+msgstr "Templat nama fail…"
 
 #: motioneye/templates/main.html:749
-#, fuzzy, python-format
-msgid "Difinas la nomon ŝablonon por bilddosieroj (JPEG); la sekvaj specialaj tokensoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero, / = subdosierujo."
-msgstr "Menetapkan templat nama untuk fail JPEG; butiran khas berikut diterima: %% Y = tahun, %% m = bulan, %% d = hari, %% H = jam, %% M = minit, %% S = kedua, %% q = %% v = nombor acara, / = subdirektori."
+#, fuzzy
+msgid "Difinas la nomon ŝablonon por bilddosieroj (JPEG); la sekvaj specialaj tokensoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero, / = subdosierujo."
+msgstr "Menetapkan corak nama untuk fail imej (JPEG); token khas berikut diterima: %Y = tahun, %m = bulan, %d = hari, %H = jam, %M = minit, %S = saat, %q = nombor bingkai, %v = nombor acara, / = subfolder."
 
 #: motioneye/templates/main.html:752
 #, fuzzy
@@ -1155,7 +1181,7 @@ msgstr "Selamanya"
 #: motioneye/templates/main.html:787 motioneye/templates/main.html:900
 #, fuzzy
 msgid "Propra"
-msgstr "Sendiri"
+msgstr "Kustom"
 
 #: motioneye/templates/main.html:790
 #, fuzzy
@@ -1198,9 +1224,9 @@ msgid "Filma Dosiernomo"
 msgstr "Nama Fail Filem"
 
 #: motioneye/templates/main.html:818
-#, fuzzy, python-format
-msgid "Difinas la nomon ŝablonon por por la filmdosieroj; la sekvaj specialaj tokensoj estas akceptitaj:%%Y = jaro,%%m = monato,%%d = tago,%%H = horo,%%M = minuto,%%S = sekundo,%%q = kadro numero,%%v = evento numero, / = subdosierujo."
-msgstr "Menentukan template nama untuk fail filem; butiran khas berikut diterima: %% Y = tahun, %% m = bulan, %% d = hari, %% H = jam, %% M = minit, %% S = kedua, %% q = %% v = nombor acara, / = subdirektori."
+#, fuzzy
+msgid "Difinas la nomon ŝablonon por por la filmdosieroj; la sekvaj specialaj tokensoj estas akceptitaj:%Y = jaro,%m = monato,%d = tago,%H = horo,%M = minuto,%S = sekundo,%q = kadro numero,%v = evento numero, / = subdosierujo."
+msgstr "Menentukan template nama untuk fail filem; butiran khas berikut diterima: %Y = tahun, %m = bulan, %d = hari, %H = jam, %M = minit, %S = kedua, %q = %v = nombor acara, / = subdirektori."
 
 #: motioneye/templates/main.html:821
 #, fuzzy
@@ -1348,9 +1374,9 @@ msgid "Detekto de lumaj ŝanĝoj"
 msgstr "Pengesanan perubahan cahaya"
 
 #: motioneye/templates/main.html:951
-#, fuzzy, python-format
-msgid "Difinas la procenton de la bildo, kiu bezonas ŝanĝi, por ke la evento estu traktata kiel subita luma ŝanĝo anstataŭ moviĝo (0%% malebligas la funkcion)."
-msgstr "Mendefinisikan peratusan imej yang perlu ditukar supaya peristiwa itu diperlakukan sebagai perubahan cahaya mendadak dan bukan gerakan (0 %% melumpuhkan ciri)."
+#, fuzzy
+msgid "Difinas la procenton de la bildo, kiu bezonas ŝanĝi, por ke la evento estu traktata kiel subita luma ŝanĝo anstataŭ moviĝo (0% malebligas la funkcion)."
+msgstr "Mendefinisikan peratusan imej yang perlu ditukar supaya peristiwa itu diperlakukan sebagai perubahan cahaya mendadak dan bukan gerakan (0% melumpuhkan ciri)."
 
 #: motioneye/templates/main.html:954
 #, fuzzy
@@ -1511,7 +1537,7 @@ msgstr "Alamat e-mel"
 #: motioneye/templates/main.html:1057
 #, fuzzy
 msgid "retpoŝtadresoj…"
-msgstr "Alamat e-mel ..."
+msgstr "Alamat e-mel…"
 
 #: motioneye/templates/main.html:1058
 #, fuzzy
@@ -1556,7 +1582,7 @@ msgstr "Akaun SMTP"
 #: motioneye/templates/main.html:1072
 #, fuzzy
 msgid "konto@gmail.com…"
-msgstr "account@gmail.com."
+msgstr "account@gmail.com…"
 
 #: motioneye/templates/main.html:1073
 #, fuzzy
@@ -1581,7 +1607,7 @@ msgstr "Daripada alamat"
 #: motioneye/templates/main.html:1082
 #, fuzzy
 msgid "retpoŝta adreso…"
-msgstr "Alamat emel ..."
+msgstr "Alamat emel…"
 
 #: motioneye/templates/main.html:1083
 #, fuzzy
@@ -1694,9 +1720,9 @@ msgid "ekz. http://ekzemplo.com/sciigi/"
 msgstr "contohnya. http://contoh.com/search/"
 
 #: motioneye/templates/main.html:1138
-#, fuzzy, python-format
-msgid "URL por esti petita kiam moviĝo estas detektita; la sekvaj specialaj ŝparvojoj estas akceptitaj: %%Y = jaro, %%m = monato, %%d = tago, %%H = horo, %%M = minuto, %%S = sekundo, %%q = kadro-numero, %%v = okaza numero"
-msgstr "URL yang diminta apabila gerakan dikesan; jalan pintas khas berikut diterima: %% Y = tahun, %% m = bulan, %% d = hari, %% H = jam, %% M = minit, %% S = kedua, %% q = nombor bingkai , %% v = nombor acara"
+#, fuzzy
+msgid "URL por esti petita kiam moviĝo estas detektita; la sekvaj specialaj ŝparvojoj estas akceptitaj: %Y = jaro, %m = monato, %d = tago, %H = horo, %M = minuto, %S = sekundo, %q = kadro-numero, %v = okaza numero"
+msgstr "URL yang diminta apabila gerakan dikesan; jalan pintas khas berikut diterima: %Y = tahun, %m = bulan, %d = hari, %H = jam, %M = minit, %S = kedua, %q = nombor bingkai , %v = nombor acara"
 
 #: motioneye/templates/main.html:1150 motioneye/templates/main.html:1195
 #, fuzzy
@@ -1721,12 +1747,12 @@ msgstr "Perintah"
 #: motioneye/templates/main.html:1162 motioneye/templates/main.html:1207
 #, fuzzy
 msgid "komando…"
-msgstr "Perintah ..."
+msgstr "Perintah…"
 
 #: motioneye/templates/main.html:1163
-#, fuzzy, python-format
-msgid "Komando por esti lanĉa kiam moviĝo estas detektita; multnombraj komandoj povas esti apartigitaj per dupunkto; ne uzu punktokomojn per komandoj; la sekvaj specialaj tokensoj estas akceptitaj: %%Y = jaro, %%m = monato, %%d = tago, %%H = horo, %%M = minuto, %%S = sekundo, %%q = kadro-numero, %%v = okaza numero"
-msgstr "Perintah untuk dilancarkan semasa gerakan dikesan; pelbagai arahan boleh dipisahkan dengan titik dua; jangan gunakan titik koma dengan perintah; token khas berikut diterima: %% Y = tahun, %% m = bulan, %% d = hari, %% H = jam, %% M = minit, %% S = kedua, %% q = nombor bingkai , %% v = nombor acara"
+#, fuzzy
+msgid "Komando por esti lanĉa kiam moviĝo estas detektita; multnombraj komandoj povas esti apartigitaj per dupunkto; ne uzu punktokomojn per komandoj; la sekvaj specialaj tokensoj estas akceptitaj: %Y = jaro, %m = monato, %d = tago, %H = horo, %M = minuto, %S = sekundo, %q = kadro-numero, %v = okaza numero"
+msgstr "Perintah untuk dilancarkan semasa gerakan dikesan; pelbagai arahan boleh dipisahkan dengan titik dua; jangan gunakan titik koma dengan perintah; token khas berikut diterima: %Y = tahun, %m = bulan, %d = hari, %H = jam, %M = minit, %S = kedua, %q = nombor bingkai , %v = nombor acara"
 
 #: motioneye/templates/main.html:1203
 #, fuzzy
@@ -1734,9 +1760,9 @@ msgid "Ebligu ĉi tion, se vi volas lanĉi komandon ĉiufoje kiam movada evento 
 msgstr "Aktifkan ini jika anda ingin melancarkan perintah setiap kali peristiwa bergerak berakhir."
 
 #: motioneye/templates/main.html:1208
-#, fuzzy, python-format
-msgid "Komando por esti lanĉa kiam moviĝokazaĵo finiĝas; multnombraj komandoj povas esti apartigitaj per dupunkto; ne uzu punktokompojn per komandoj; la sekvaj specialaj tokensoj estas akceptitaj: %%Y = jaro, %%m = monato, %%d = dato, %%H = horo, %%M = minuto, %%S = sekundo, %%q = kadra nombro."
-msgstr "Perintah untuk dilancarkan apabila acara gerakan berakhir; pelbagai arahan boleh dipisahkan dengan titik dua; jangan gunakan dot com dengan arahan; token khas berikut diterima: %% Y = tahun, %% m = bulan, %% d = tarikh, %% H = jam, %% M = minit, %% S = kedua, %% q = nombor bingkai."
+#, fuzzy
+msgid "Komando por esti lanĉa kiam moviĝokazaĵo finiĝas; multnombraj komandoj povas esti apartigitaj per dupunkto; ne uzu punktokompojn per komandoj; la sekvaj specialaj tokensoj estas akceptitaj: %Y = jaro, %m = monato, %d = dato, %H = horo, %M = minuto, %S = sekundo, %q = kadra nombro."
+msgstr "Perintah untuk dilancarkan apabila acara gerakan berakhir; pelbagai arahan boleh dipisahkan dengan titik dua; jangan gunakan dot com dengan arahan; token khas berikut diterima: %Y = tahun, %m = bulan, %d = tarikh, %H = jam, %M = minit, %S = kedua, %q = nombor bingkai."
 
 #: motioneye/templates/main.html:1218
 #, fuzzy
@@ -1896,7 +1922,7 @@ msgstr "minit"
 #: motioneye/utils/dtconv.py:143
 #, fuzzy
 msgid "sekundo"
-msgstr "sesaat"
+msgstr "kedua"
 
 #: motioneye/utils/dtconv.py:153
 #, fuzzy
